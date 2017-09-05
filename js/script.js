@@ -48,8 +48,8 @@ if ($('#map').length) {
     var map;
     map = new GMaps({
         el: '#map'
-        , lat: 51.507309
-        , lng: -0.127448
+        , lat: 6.926608
+        , lng: 79.8607772
         , scrollwheel: false
     });
     map.drawOverlay({
@@ -79,10 +79,10 @@ $(' #myNavbar ul  li  a ').on('click',function(){
 $(window).on('scroll', function () {
     if ($(this).scrollTop() > 70) { // Set position from top to add class
         $('.navbar').addClass("shrink");
-        $('.navbar-brand  img').attr('src', 'images/appland_logo_colorful.png');
+        $('.navbar-brand  img').attr('src', 'images/bitlaan_logo_colorful.png');
     }else{
         $('.navbar').removeClass("shrink");
-        $('.navbar-brand  img').attr('src', 'images/appland_logo.png');
+        $('.navbar-brand  img').attr('src', 'images/bitlaan_logo.png');
     }
 });
 //* For Hiding CSS Loader When Page Is Loaded

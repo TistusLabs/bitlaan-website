@@ -237,18 +237,18 @@ h1, h2, h3, h4, h5, h6, p {
     font-family: 'Open Sans', sans-serif;
 }
 /* Body Styling Start */
-.appland_navbar{
+.bitlaan_navbar{
     background: transparent;
     padding: 10px;
     margin-top: 15px;
     border:none;
 }
-.appland_navbar .navbar-brand{
+.bitlaan_navbar .navbar-brand{
     padding: 11px 0 0 15px;
     margin-left: 0;
     width: 130px;
 }
-.appland_navbar .navbar-brand img{
+.bitlaan_navbar .navbar-brand img{
     width: 100%;
 }
 .navbar-nav>li>a{
@@ -685,29 +685,29 @@ h1, h2, h3, h4, h5, h6, p {
         padding-bottom: 20px;
     }
 }
-.page_content_features{
+.page_content_products{
     background: url("../images/feature_bg.jpg") fixed;
     padding: 150px 0;
     font-family: 'Open Sans', sans-serif;
     background-size: cover;
 
 }
-.page_content_features h2{
+.page_content_products h2{
     color: #FFFFFF;
     font-size: 36px;
 }
-.page_content_features img{
+.page_content_products img{
     margin:5px auto;
     display: block;
     width: 15%;
 }
-.page_content_features p{
+.page_content_products p{
     color: #FFFFFF;
     padding: 20px 0 30px 0;
     text-align: center;
     font-size: 15px;
 }
-.page_content_features .app_feature_bullets{
+.page_content_products .app_feature_bullets{
     background: #FFFFFF;
     width: 67.5px;
     height:67.5px;
@@ -715,11 +715,11 @@ h1, h2, h3, h4, h5, h6, p {
     border-radius: 50%;
     transition: 1s;
 }
-.page_content_features .app_feature_bullets i{
+.page_content_products .app_feature_bullets i{
     font-size: 36px;
     line-height: 67.5px;
 }
-.page_content_features .app_feature_information {
+.page_content_products .app_feature_information {
     color: #FFFFFF;
     text-align: left;
 }
@@ -733,45 +733,45 @@ h1, h2, h3, h4, h5, h6, p {
     text-align: left;
     font-size: 14px;
 }
-.page_content_features .app_feature_bullets_1{
+.page_content_products .app_feature_bullets_1{
      color: #fd5f42;
  }
-.page_content_features .app_feature_bullets_1:hover{
+.page_content_products .app_feature_bullets_1:hover{
     background: #fd5f42;
     color: #ffffff;
 }
-.page_content_features .app_feature_bullets_2{
+.page_content_products .app_feature_bullets_2{
     color: #3b99d7;
 }
-.page_content_features .app_feature_bullets_2:hover{
+.page_content_products .app_feature_bullets_2:hover{
     background: #3b99d7;
     color: #ffffff;
 }
-.page_content_features .app_feature_bullets_3{
+.page_content_products .app_feature_bullets_3{
     color: #f6c640;
 }
-.page_content_features .app_feature_bullets_3:hover{
+.page_content_products .app_feature_bullets_3:hover{
     background: #f6c640;
     color: #ffffff;
 }
-.page_content_features .app_feature_bullets_4{
+.page_content_products .app_feature_bullets_4{
     color: #a9cf6a;
 }
-.page_content_features .app_feature_bullets_4:hover{
+.page_content_products .app_feature_bullets_4:hover{
     background: #a9cf6a;
     color: #ffffff;
 }
-.page_content_features .app_feature_bullets_5{
+.page_content_products .app_feature_bullets_5{
     color: #5d5d5d;
 }
-.page_content_features .app_feature_bullets_5:hover{
+.page_content_products .app_feature_bullets_5:hover{
     background: #5d5d5d;
     color: #ffffff;
 }
-.page_content_features .app_feature_bullets_6{
+.page_content_products .app_feature_bullets_6{
     color: #26cbbd;
 }
-.page_content_features .app_feature_bullets_6:hover{
+.page_content_products .app_feature_bullets_6:hover{
     background: #26cbbd;
     color: #ffffff;
 }
@@ -779,10 +779,10 @@ h1, h2, h3, h4, h5, h6, p {
     margin-top: 60px;
 }
 @media only screen and (max-width: 1200px) {
-    .page_content_features h2{
+    .page_content_products h2{
         font-size: 34px;
     }
-    .page_content_features p{
+    .page_content_products p{
         font-size: 16px;
     }
     .app_feature_information h3{
